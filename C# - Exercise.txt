@@ -1,0 +1,6 @@
+Please write an C# service API (Asp.Net) that is as close to a production-grade one as possible.
+The API should:
+•	Allow a GET on /Score/(number) to return the number of record where Score is above the provided number, from the attached json file.
+•	Allow for the update of the score of a player, which should be saved into that same file.
+
+The candidate is welcomed to ask any question if necessary.
