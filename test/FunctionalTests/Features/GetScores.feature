@@ -28,7 +28,7 @@ Examples:
 | 1000  | 
 
 Scenario: If there is an issue I get Server Error
-	Given I have a score of '1'
+	Given I have a score of '0'
 	And the client has an issue
 	When I call the get scores endpoint
 	Then the status code is 'Internal Server Error'
